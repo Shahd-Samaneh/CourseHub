@@ -1,0 +1,7 @@
+.header .contact-info{
+    background-color: var(--primaryColor1);
+}
+
+.header .contact-info .social-media {
+       background-color: var(--yellowColor);
+}
