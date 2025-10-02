@@ -2,6 +2,29 @@
     background-color: var(--primaryColor1);
 }
 
-.header .contact-info .social-media {
+.header .contact-info .right-side-info {
        background-color: var(--yellowColor);
 }
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: var(--blackColor);
+    padding-left: 30px ;
+   
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: var(--lightPurpule);
+    border: var(--bs-border-width) var(--bs-border-style) var(--lightPurpule);
+    border-radius: var(--bs-border-radius-xxl)
+
+}
+
+.navbar .create-btn button{
+    background-color: var(--lightPurpule);
+}
+/* .navbar .create-btn{
+    position:relative;
+}
+
+.navbar .create-btn .arrow-button {
+    position: absolute;
+} */
