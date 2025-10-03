@@ -82,3 +82,41 @@
 
 
 /* end categories */
+
+/* courses start */
+.courses .card-top{
+    position: relative;
+}
+
+.courses .card-top .btn{
+    position: absolute;
+    z-index: 1;
+    bottom: 20px;
+    left: 20px;
+}
+.courses .row{
+    gap: 30px;
+}
+
+.courses .course{
+    flex-basis: 400px;
+    gap: 20px;
+    color: #0E2A46;
+    padding:15px;
+    border-radius: 5px;
+    border: dashed 1px var(--lightPurpule);
+    background-color: #F5F5F5;
+}
+
+.card-body{
+    background-image: url("../img/courses/backgroundCard.svg");
+     background-repeat: no-repeat;
+      background-position: center ;
+}
+
+.course-details{
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+
+/* courses end */

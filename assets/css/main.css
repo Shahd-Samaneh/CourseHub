@@ -13,6 +13,10 @@
         width: calc(100% - 100px);
 
     }
+
+    .btn{
+        padding: 0;
+    }
 }
 
 @media screen and (max-width:576px) {
@@ -20,4 +24,8 @@
         width: calc(100% - 40px);
 
     }
+    .btn{
+        padding: 0;
+    }
 }
+
