@@ -84,6 +84,19 @@
 /* end categories */
 
 /* courses start */
+.courses h2{
+    color:var(--primaryColor1);
+}
+
+.course-header .course-h{
+color: #704FE6;
+background-color: #E9E2FF;
+border-radius: 5px;
+}
+
+.course-header .btn{
+    background-color: var(--lightPurpule);
+}
 .courses .card-top{
     position: relative;
 }
@@ -93,9 +106,11 @@
     z-index: 1;
     bottom: 20px;
     left: 20px;
+    background-color: var(--primaryColor1);
+  
 }
 .courses .row{
-    gap: 30px;
+    gap: 24px;
 }
 
 .courses .course{
@@ -108,6 +123,29 @@
     background-color: #F5F5F5;
 }
 
+.courses .course .rate{
+    color:#4D5756;
+}
+
+.courses .course .price
+{
+    color: var(--lightPurpule);
+}
+.courses .course .card-text , .courses .course-teacher span{
+    color: var(--primaryColor1);
+
+}
+
+.courses .course-teacher .btn span{
+    color: #ffff;
+    background-color: var(--lightPurpule);
+
+}
+.courses .course-teacher .btn {
+    
+    background-color: var(--lightPurpule);
+
+}
 .card-body{
     background-image: url("../img/courses/backgroundCard.svg");
      background-repeat: no-repeat;
@@ -115,8 +153,25 @@
 }
 
 .course-details{
+   
     background-color: #FFFFFF;
     border-radius: 5px;
+}
+
+@media screen and (max-width:576px) {
+    .course-header-b{
+  
+        flex-direction: column;
+ 
+    }
+}
+@media screen and (max-width:430px) {
+   
+    .course-details{
+  
+        flex-direction: column;
+ 
+    }
 }
 
 /* courses end */

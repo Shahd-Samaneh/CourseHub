@@ -8,15 +8,18 @@
 
 }
 
+.btn{
+      border: none;
+    outline: none;
+}
+
 @media screen and (max-width:992px) {
     .container {
         width: calc(100% - 100px);
 
     }
 
-    .btn{
-        padding: 0;
-    }
+   
 }
 
 @media screen and (max-width:576px) {
@@ -24,8 +27,13 @@
         width: calc(100% - 40px);
 
     }
+    
+}
+
+@media screen and (max-width:350px) {
+   
     .btn{
-        padding: 0;
+        padding: 0 !important;
     }
 }
 
