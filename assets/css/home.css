@@ -129,6 +129,13 @@
 /* end categories */
 
 /* courses start */
+.courses{
+
+      background-image: url("../img/courses/Background.svg");
+     background-repeat: repeat-y;
+      background-position: center ;
+    
+}
 .courses h2{
     color:var(--primaryColor1);
 }
