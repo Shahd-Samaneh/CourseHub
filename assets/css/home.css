@@ -268,4 +268,13 @@
     color: #ffffff;
     font-weight: bold;
 }
+
+@media screen and (max-width:600px) {
+   
+    .banner{
+       background-color: var(--primaryColor1);
+       background-image: none;
+    }
+}
+
 /* banner end */
