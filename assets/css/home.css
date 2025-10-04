@@ -25,6 +25,51 @@
 
 /* end header */
 
+/* hero start  */
+
+.hero{
+    background-image: url("../img/hero/heroBackground.webp");
+    background-repeat: no-repeat;
+    background-position: center ;
+  
+}
+
+.heros img{
+  width: 100%;
+}
+.hero-left-side{
+    padding-top: 50px;
+     padding-bottom: 50px;
+}
+.hero-left-side span{
+    color: var(--lightPurpule);
+}
+.hero-left-side h1{
+    color: var(--primaryColor1);
+    font-weight: bold;
+}
+.hero-left-side p{
+    color: #333931;
+}
+
+.hero-left-side .btn{
+    background-color: var(--primaryColor1);
+}
+
+.hero-left-side .btn span{
+    color: #FFFFFF;
+}
+
+@media screen and (max-width:750px) {
+    
+    .heros img{
+        display: none;
+    }
+
+}
+
+/* hero end */
+
 /* start categories */
 .categories .row{
     gap: 30px;

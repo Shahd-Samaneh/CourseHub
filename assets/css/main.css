@@ -33,7 +33,7 @@
 @media screen and (max-width:350px) {
    
     .btn{
-        padding: 0 !important;
+        padding: 5px !important;
     }
 }
 
