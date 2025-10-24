@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign Up</title>
+    <title>Sign In</title>
     <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
@@ -117,8 +117,8 @@
     <main>
         <section class="hero-sec">
             <div class="container d-flex flex-column align-items-center justify-content-center">
-                <h1>SIGN UP</h1>
-                <p>Home <span>//</span> Sign Up</p>
+                <h1>SIGN IN</h1>
+                <p>Home <span>//</span> Sign In</p>
             </div>
         </section>
 
@@ -127,15 +127,8 @@
 
                 <div class="content d-flex ">
                     <div class="left-side d-flex">
-                        <h2>Sign Up</h2>
+                        <h2>Sign In</h2>
                         <form>
-                            <div class="mb-5">
-                                <input type="text" class="form-control" placeholder="Full Name *" id="inputFullName"
-                                    aria-describedby="emailHelp">
-                            </div>
-                            <div class="mb-5">
-                                <input type="tel" class="form-control" placeholder="Phone *" id="inputPhone">
-                            </div>
                             <div class="mb-5">
                                 <input type="email" class="form-control" placeholder="Email *" id="inputEmail1"
                                     aria-describedby="emailHelp">
@@ -144,26 +137,34 @@
                                 <input type="password" class="form-control" placeholder="Password *"
                                     id="inputPassword1">
                             </div>
-                            <div class="signUpBtn mb-5 d-flex ">
-                                 <button class="btn btn-primary d-flex align-items-center  rounded-pill px-4 py-3">
-                                <span>Sign Up</span>
-                                <i class="fa-solid fa-arrow-right fa-sm ps-4"></i>
-                            </button>
-                            <span class="social d-flex align-items-center justify-content-center">
-                                <p>or sign up with</p>
-                                <img src="./assets/img/sign/socialMedia.webp"/>
-                            </span>
+                            <div class="d-flex passRem mb-3">
+                            <a  href="#" class="forgetPass">Forgot Password?</a>
+                            <div class=" form-check">
+
+                                <input type="checkbox" class="form-check-input" id="Check">
+                                <label class="form-check-label" for="Check">Remember me</label>
                             </div>
-                           
+                            </div>
+                            <div class="signUpBtn mb-5 d-flex ">
+                                <button class="btn btn-primary d-flex align-items-center  rounded-pill px-4 py-3">
+                                    <span>Sign In</span>
+                                    <i class="fa-solid fa-arrow-right fa-sm ps-4"></i>
+                                </button>
+                                <span class="social d-flex align-items-center justify-content-center">
+                                    <p>or sign up with</p>
+                                    <img src="./assets/img/sign/socialMedia.webp" />
+                                </span>
+                            </div>
+
                         </form>
                         <div class="sign-in d-flex ">
-                            <p>Already have an account? </p>
-                            <a href="signin.html"> Sing In</a>
+                            <p>Don't have an account? ? </p>
+                            <a href="signup.html"> Sing Up</a>
                         </div>
-                        
+
                     </div>
                     <div class="right-side">
-                        <img src="./assets/img/sign/signUp.webp" />
+                        <img src="./assets/img/sign/signIn.webp" />
                     </div>
 
                 </div>

@@ -52,8 +52,27 @@
     gap: 5px;
 }
 
+
+.passRem {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.signUp .passRem .forgetPass {
+    color: #FF0000;
+}
+
+.passRem .forgetPass .form-check-label {
+    color: #333931;
+}
+
 @media screen and (max-width:1100px) {
     .signUp .content {
+        flex-direction: column;
+    }
+    
+    .signUp .left-side .signUpBtn {
+        align-items: center;
         flex-direction: column;
     }
 }
@@ -63,9 +82,6 @@
         display: none;
     }
 
-    .signUp .left-side .signUpBtn {
-        flex-direction: column;
-    }
 }
 
 @media screen and (max-width:400px) {
@@ -74,6 +90,10 @@
     }
 
     .signUp .left-side .sign-in {
+        flex-direction: column;
+    }
+
+    .passRem {
         flex-direction: column;
     }
 }
