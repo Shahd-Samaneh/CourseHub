@@ -413,7 +413,7 @@
 }
 
 .career .left-sec {
-    
+    padding-bottom: 10px;
     border-radius: 5px;
     flex-direction: row;
     color: #ffff;

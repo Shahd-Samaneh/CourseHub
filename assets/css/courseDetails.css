@@ -1,0 +1,122 @@
+.courseDetails .top-side .left-side {
+    flex-direction: column;
+    gap: 30px;
+}
+
+.courseDetails .top-side .left-side h2 {
+    color: var(--h2Color);
+
+}
+
+.courseDetails .top-side .left-side .course-details {
+    flex-direction: row;
+    gap: 20px;
+    padding-bottom: 50px;
+    border-bottom: 2px solid #4D575680;
+    border-radius: 0;
+    outline: 0;
+}
+
+.courseDetails .top-side .left-side .btns {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.courseDetails .top-side .left-side .btns .btn {
+    color: var(--h2Color);
+    background-color: #F2F2F2;
+    padding: 20PX;
+}
+
+.courseDetails .top-side .left-side .btns .active {
+    color: #ffffff;
+    background-color: #7768E5;
+}
+
+
+.courseDetails .right-side {
+
+    flex-direction: column;
+    gap: 20px;
+    background-color: #E8E8F4;
+    padding: 20px;
+    border-radius: 5px;
+    height: fit-content;
+}
+
+.courseDetails .right-side div {
+    color: #4D5756;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.courseDetails .right-side div .newPrice {
+    color: var(--h2Color);
+    font-weight: bolder;
+}
+
+.courseDetails .right-side div .oldPrice {
+    font-weight: bolder;
+}
+
+.courseDetails .right-side div P {
+    color: var(--h2Color);
+}
+
+.courseDetails .right-side div .btn {
+    background-color: var(--lightPurpule);
+}
+
+.courseDetails .content {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.courseDetails .bottom-side h5{
+    color: var(--h2Color);
+}
+.courseDetails .bottom-side p{
+    color: #333931;
+}
+
+@media screen and (max-width:1400px) {
+
+    .courseDetails .content {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .courseDetails .right-side {
+        width: 50%;
+    }
+
+}
+@media screen and (max-width:800px) {
+
+  
+
+    .courseDetails .right-side {
+        width: 75%;
+    }
+
+}
+
+@media screen and (max-width:500px) {
+
+    .courseDetails .top-side .left-side .btns {
+
+        flex-direction: column;
+    }
+
+    .courseDetails .top-side .left-side .course-details {
+        flex-direction: column;
+    }
+     .courseDetails .right-side {
+        width: 100%;
+    }
+}
