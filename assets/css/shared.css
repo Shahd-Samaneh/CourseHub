@@ -1,13 +1,13 @@
-.courseHero{
+.hero-sec{
     background-image: url("../img/courses/Background.webp");
     padding: 150px 48px;
     color: var(--h2Color);
 }
 
-.courseHero h1{
+.hero-sec h1{
     font-size: 64px;
 }
 
-.courseHero p span{
+.hero-sec p span{
     color: #FC6441;
 }

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Course Details</title>
+    <title>Sign Up</title>
     <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
@@ -20,6 +20,8 @@
     <link rel="stylesheet" href="./assets/css/shared.css" />
     <!-- course details style -->
     <link rel="stylesheet" href="./assets/css/courseDetails.css" />
+    <!-- sign up details style -->
+    <link rel="stylesheet" href="./assets/css/signup.css" />
 </head>
 
 <body>
@@ -111,141 +113,62 @@
         </nav>
 
     </header>
+
     <main>
         <section class="hero-sec">
             <div class="container d-flex flex-column align-items-center justify-content-center">
-                <h1>Course Details</h1>
-                <p>Home <span>//</span> Course</p>
+                <h1>SIGN UP</h1>
+                <p>Home <span>//</span> Sign Up</p>
             </div>
         </section>
-        <section class="courseDetails py-5">
-            <div class="container">
-                <div class="content">
-                    <div class="left-sec">
-                        <div class="top-side ">
-                            <div class="left-side d-flex  ">
-                                <img src="./assets/img/courses/courseDetails.webp" />
-                                <div class="rating">
-                                    <img src="./assets/img/courses/stars.svg" />
-                                    <span class="rate">(4.7)</span>
-                                    <h2>Web Development Fully Complete
-                                        Guideline</h2>
 
-                                </div>
-                                <div class="course-details d-flex  px-2 pt-2">
-                                    <div><img src="./assets/img/courses/lessonSym.svg" />
-                                        <span>Lesson 10</span>
-                                    </div>
-                                    <div><img src="./assets/img/courses/timeSym.svg" />
-                                        <span>19h 30m</span>
-                                    </div>
-                                    <div><img src="./assets/img/courses/personSym.svg" />
-                                        <span>Students 20+</span>
-                                    </div>
-                                </div>
-                                <div class="btns pb-3">
-                                    <button class="btn btn-primary active" type="submit">Overview</button>
+        <section class="signUp py-5">
+            <div class="container d-flex  align-items-center justify-content-center">
 
-                                    <button class="btn btn-primary" type="submit">Curriculum</button>
-
-                                    <button class="btn btn-primary" type="submit">Instructor</button>
-
-                                    <button class="btn btn-primary" type="submit">Reviews</button>
-                                </div>
-
+                <div class="content d-flex ">
+                    <div class="left-side d-flex">
+                        <h2>Sign Up</h2>
+                        <form>
+                            <div class="mb-5">
+                                <input type="text" class="form-control" placeholder="Full Name *" id="inputFullName"
+                                    aria-describedby="emailHelp">
                             </div>
-
-                        </div>
-
-                        <div class="bottom-side">
-                            <div class="p1">
-                                <h5>COURSE DESCRIPTION</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut
-                                    labore et dolore
-                                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                                    nisi ut
-                                    aliquip ex ea
-                                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                                    cillum
-                                    dolore eu fugiat nulla
-                                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                                    deserunt
-                                    mollit anim..</p>
-                                <P>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut
-                                    labore et dolore
-                                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                                    nisi ut
-                                    aliquip ex ea
-                                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                                    cillum..
-                                </P>
+                            <div class="mb-5">
+                                <input type="tel" class="form-control" placeholder="Phone *" id="inputPhone">
                             </div>
-                            <div class="p2">
-                                <h5>WHAT WILL I LEARN FROM THIS COURSE?</h5>
-                                <p>Himenaeos. Vestibulum sollicitudin varius mauris non dignissim. Sed quis iaculis est.
-                                    Nulla
-                                    quam neque,
-                                    interdum vitae fermentum lacinia, interdum eu magna. Mauris non posuere tellus.
-                                    Donec quis
-                                    euismod tellus.
-                                    Nam vel lacus eu nisl bibendum accumsan vitae vitae nibh. Nam nec eros id magna
-                                    hendrerit
-                                    sagittis Nullam
-                                    sed mi non odio feugiat volutpat sit amet nec elit. Maecenas id hendrerit ipsum</p>
+                            <div class="mb-5">
+                                <input type="email" class="form-control" placeholder="Email *" id="inputEmail1"
+                                    aria-describedby="emailHelp">
                             </div>
-
-                        </div>
-                    </div>
-                    <div class="right-side d-flex ">
-                        <img src="./assets/img/courses/courseDetails2.webp" />
-                        <div>
-                            <span>Course Fee</span>
-                            <span class="price">
-                                <span class="newPrice">$60 </span>
-                                <span class="oldPrice">$120</span>
+                            <div class="mb-5">
+                                <input type="password" class="form-control" placeholder="Password *"
+                                    id="inputPassword1">
+                            </div>
+                            <div class="signUpBtn mb-5 d-flex ">
+                                 <button class="btn btn-primary d-flex align-items-center  rounded-pill px-4 py-3">
+                                <span>Sign Up</span>
+                                <i class="fa-solid fa-arrow-right fa-sm ps-4"></i>
+                            </button>
+                            <span class="social d-flex align-items-center justify-content-center">
+                                <p>or sign up with</p>
+                                <img src="./assets/img/sign/socialMedia.webp"/>
                             </span>
+                            </div>
+                           
+                        </form>
+                        <div class="sign-in d-flex ">
+                            <p>Already have an account? </p>
+                            <a href="#"> Sing In</a>
                         </div>
-                        <div>
-                            <p class="details">29-da money-back guarantee</p>
-                        </div>
-                        <div class="w-100">
-                            <button type="button" class="btn btn-primary btn-lg  w-100">BUY NOW</button>
-                        </div>
-                        <div>
-                            <span>Start Date</span>
-                            <span class="time">4:00 pm 6:00 pm</span>
-                        </div>
-                        <div>
-                            <span>Enrolled</span>
-                            <span>100</span>
-                        </div>
-                        <div>
-                            <span>Lectures</span>
-                            <span>80</span>
-                        </div>
-                        <div>
-                            <span>Skill Level</span>
-                            <span>Basic</span>
-                        </div>
-                        <div>
-                            <span>ClassName Day</span>
-                            <span>Monday-Friday</span>
-                        </div>
-                        <div>
-                            <span>Language</span>
-                            <span>English</span>
-                        </div>
+                        
                     </div>
+                    <div class="right-side">
+                        <img src="./assets/img/sign/signUp.webp" />
+                    </div>
+
                 </div>
-
-
             </div>
-
         </section>
-
     </main>
     <footer class="footer py-5">
         <div class="container">

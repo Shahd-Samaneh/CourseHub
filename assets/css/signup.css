@@ -1,0 +1,79 @@
+.signUp .content {
+    background-color: #E2E1E1;
+    inline-size: fit-content;
+    flex-direction: row;
+    height: 75%;
+}
+
+.signUp .content .left-side {
+    flex-direction: column;
+    padding: 50px;
+    width: fit-content;
+    gap: 30px;
+}
+
+.signUp .content .left-side form ::placeholder {
+    color: var(--h2Color);
+}
+
+.signUp .left-side h2 {
+    color: #0A0909;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #4D575680;
+    border-radius: 0;
+    outline: 0;
+}
+
+.signUp .left-side .btn {
+    background-color: var(--lightPurpule);
+    color: #ffffff;
+}
+
+.signUp .left-side a {
+    outline: none;
+    border: none;
+    text-decoration: none;
+    color: var(--h2Color);
+
+}
+
+.signUp .left-side .signUpBtn {
+    flex-direction: row;
+    gap: 48px;
+}
+
+.signUp .left-side .social {
+    flex-direction: row;
+    gap: 30px;
+}
+
+.signUp .left-side .sign-in {
+    flex-direction: row;
+    gap: 5px;
+}
+
+@media screen and (max-width:1100px) {
+    .signUp .content {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .signUp .right-side {
+        display: none;
+    }
+
+    .signUp .left-side .signUpBtn {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .signUp .left-side .social {
+        flex-direction: column;
+    }
+
+    .signUp .left-side .sign-in {
+        flex-direction: column;
+    }
+}
