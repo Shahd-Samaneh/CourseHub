@@ -387,6 +387,110 @@
 
 /* features end  */
 
+/* testimonial start */
+.testimonial {
+    margin-top: 150px;
+    padding-top: 150px;
+    background-image: url("../img/testimonial/Background.webp");
+   
+    position: relative;
+}
+
+.testimonial-header {
+    top: -20%;
+    position: absolute;
+    padding: 50px;
+    background-color: #FFD25D;
+    background-image: url("../img/testimonial/Background1.webp");
+    background-repeat: no-repeat;
+}
+
+.testimonial .title {
+    background-color: #E9E2FF;
+    color: var(--lightPurpule);
+    border-radius: 5px;
+}
+
+.testimonial .card-testimonial p {
+    color: #333931;
+}
+
+.testimonial h2,
+.testimonial h4 {
+    color: var(--h2Color);
+}
+
+.testimonial h5 {
+    color: var(--lightPurpule);
+    font-weight: 50px;
+}
+
+.testimonial .testimonial-icon {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+
+.testimonial .testimonial-header {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.testimonial-header .testimonial-icon img {
+    background-color: white;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.testimonial-content {
+    flex-direction: row;
+}
+
+.testimonial .card-testimonial {
+    position: relative;
+}
+
+.testimonial .card-testimonial .icon-testimonial {
+    top: -20px;
+    left: -25px;
+    position: absolute;
+}
+
+@media screen and (max-width:1300px) {
+    .testimonial .testimonial-icon {
+
+        gap: 5px;
+
+    }
+
+    .testimonial .testimonial-header {
+        gap: 5px;
+
+    }
+
+
+}
+
+@media screen and (max-width:900px) {
+    .testimonial {
+    margin-top: 48px;
+    }
+
+    .testimonial .testimonial-header {
+        display: none;
+    }
+
+    .testimonial-content {
+        flex-direction: column;
+    }
+
+ 
+}
+
+/* testimonial end  */
+
 /* Career sec start */
 .career {
     background-image: url("../img/career/background.webp");
@@ -423,7 +527,7 @@
 }
 
 .career .left-sec .btn {
-    
+
     color: var(--h2Color);
     background-color: #FFD25D;
 }
@@ -445,17 +549,18 @@
 
 @media screen and (max-width:1100px) {
     .career .content {
-        
+
         flex-direction: column;
     }
 }
 
 @media screen and (max-width:760px) {
-    .image{
-        
+    .image {
+
         display: none;
     }
 }
+
 /* Career sec end */
 
 /* popular start */
