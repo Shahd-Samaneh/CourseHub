@@ -336,12 +336,24 @@
 
 }
 
+.about-right-side .bottom-side {
+    
+    flex-direction: row;
+}
+
 @media screen and (max-width:992px) {
 
     .about-left-side img {
         display: none;
     }
 
+}
+
+@media screen and (max-width:450px) {
+
+    .about-right-side .bottom-side {
+        flex-direction: column;
+    }
 }
 
 /* about end */
@@ -636,7 +648,7 @@
 }
 
 .blogs .card-img-top:hover {
-      transform: scale(1.06);
+    transform: scale(1.06);
 }
 
 .popular .blogs .btn {
