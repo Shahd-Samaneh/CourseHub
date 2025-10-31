@@ -4,6 +4,7 @@
     --yellowColor  : #FFD25D;
     --lightPurpule: #704FE6;
     --blackColor:#000000;
+    --websiteFont: "Epilogue", sans-serif;
 
 
 }
@@ -11,6 +12,9 @@
 .btn{
       border: none;
     outline: none;
+}
+body{
+     font-family: var( --websiteFont);
 }
 
 @media screen and (max-width:992px) {
